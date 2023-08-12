@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+
+
+  </header><!-- End Header -->
+
+  <!-- ======= mon Section ======= -->
+  <section id="mon" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>MONKHUM CRAFT AND CREATIVE</h1>
+      <p><span class="typed" data-typed-items="-MINI-, -SOUNDSCAPE MACHINE-, -SYNTHESIZER-, -(o) MON2 : SOUNDSCAPE MACHINE-"></span></p>
+      <div class="social-links">
+      </div>
+      <h1><a href="#" class="instagram"><i class="bx bx-server"></i></a>  Flash Tool</h1>
+      <h6>.:: (o) MON 2 : SOUNDSCAPE MACHINE ::.</h6>
+      <br>
+      <div>
+        <script type="module" src="https://unpkg.com/esp-web-tools@7.3.1/dist/web/install-button.js?module">
+        </script>
+          <esp-web-install-button id="installButton" manifest="assets/flash/manifest.json"></esp-web-install-button>
+          <br>
+          <span> <br> NOTE: <br>
+            Make sure to close anything using your devices com port (e.g. Serial monitor). <br>  Install the chip driver (CH9102F CH34XSER) before loading the program for the first time.</span>
+
+      </div>
+      <span><br><br></span>
+      <div>
+
+        
+        <a
+            href="https://learn.adafruit.com/how-to-install-drivers-for-wch-usb-to-serial-chips-ch9102f-ch9102/windows-driver-installation"> - Windows
+            Driver Installation</a> <br>
+        <a
+            href="https://learn.adafruit.com/how-to-install-drivers-for-wch-usb-to-serial-chips-ch9102f-ch9102/mac-driver-installation"> - Mac
+            Driver Installation</a>
+    </div>
+    <div id="notSupported" style="display: none;">
+        Your browser does not support the Web Serial API. Try Chrome
+    </div>
+
+    <script>
+      if (navigator.serial) {
+          document.getElementById("notSupported").style.display = 'none';
+          document.getElementById("main").style.display = 'block';
+      } else {
+          document.getElementById("notSupported").style.display = 'block';
+          document.getElementById("main").style.display = 'none';
+      }
+  </script>
+
+          </div>
+  </section><!-- End mon -->
+
+  <main id="main">
+
+    <!-- ======= History Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>ประวัติการพัฒนา</h2>
+          <p>เรายังคปรับปรุง fw ของ Mon2 : Soundscape Machine อยู่เสมอ ความเห็นของลูกค้า เราจะไม่ละเลย</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">History</h3>
+            <div class="resume-item pb-0">
+              <h4>FW 1.0</h4>
+              <h5>Aug 2023</h5>
+              <p><em>- First Version</em></p>
+              <ul>
+                <li>12 page </li>
+                <li>6 Osc </li>
+                <li>USB MIDI OUT</li>
+                <li>Attack Release</li>
+              </ul>
+            </div>
+          </div>
+      
+        </div>
+
+      </div>
+    </section><!-- End History Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>(o) MON 2 : Soundscape Machine</h3>
+      <p>ม่อนคำ คราฟ แอนด์ ครีเอทีฟ เชียงใหม่ ประเทศไทย</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/monkhum.cc/" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>MonkhumCC</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
