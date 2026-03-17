@@ -1,15 +1,13 @@
 # (o) MON 2 : SOUNDSCAPE MACHINE 🎛️
 *Comprehensive User Manual & Documentation - Firmware Version 2.2*
-
 ---
-
-## 📑 TABLE OF CONTENTS
+## 📑 TABLE OF CONTENTS 
 1. **English Documentation**
 2. **คู่มือภาษาไทย (Thai Documentation)**
 3. **中文说明书 (Chinese Documentation)**
 4. **Manual en Español (Spanish Documentation)**
 
-<br><br><br>
+<br><br>
 
 ---
 
